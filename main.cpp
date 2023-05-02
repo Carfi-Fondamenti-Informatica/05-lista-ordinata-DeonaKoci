@@ -7,33 +7,21 @@ int main() {
  }
  int a=0;
  cin >> a;
+ 
+ 
+for(int i=0;i<10;i++){
+    int r=0;
+    if (lista[i]>a){
+        r=lista[i];
+        lista[i]=a;
+        a=r;
 
 
-if ( a > lista[9]) {
-    for(int i=0; i<10; i++){
-    cout << lista[i] << " ";
-}}
-else {
+}
+}
 
 for(int i=0;i<10;i++){
-int j=lista[i];
-
-    for ( ; lista [i]<a;i++){
-        cout << lista[i] << " ";
-
-
-    }
-    for ( ; j<=a;j++){
-        j=a;
-        cout << j << " ";
-        break;
-    }
-    for ( ; j>a; j++ ){
-        cout << lista [i-1]<< " ";
-        break;
-    }
-}
-}
-
+  cout << lista[i] << " ";
+ }
  return 0;
 }
